@@ -1,4 +1,4 @@
-const socket = io("http://localhost:8000");
+const socket = io("https://hardikprakhar.github.io/ChatRoom/:8000");
 
 const name = prompt("Enter your name to join");
 socket.emit("new-user-joined", name);
