@@ -1,4 +1,4 @@
-const socket = io.connect("http://201.209.104.33:8000");
+const socket = io();
 
 const name = prompt("Enter your name to join");
 socket.emit("new-user-joined", name);
